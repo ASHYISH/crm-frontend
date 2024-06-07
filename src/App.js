@@ -1,11 +1,12 @@
 import React from "react";
 import "./App.css";
 import { Entry } from "./pages/entry/Entry.page";
+import { DafaultLayout } from "./layout/DafaultLayout";
 
 function App() {
   return (
     <div className="App">
-      <Entry />
+      <DafaultLayout>Dashboard</DafaultLayout>
     </div>
   );
 }
