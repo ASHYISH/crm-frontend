@@ -2,10 +2,16 @@ import React from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import { OrderTable } from "../../components/order-table/OrderTable.comp";
 import Orders from "../../assets/data/dummy-data.json";
+import { PageBreadCrumb } from "../../components/breadcrumb/BreadCrumb.comp";
 
 export const Dashboard = () => {
   return (
     <Container>
+      <Row>
+        <Col>
+          <PageBreadCrumb page="Dashboard" />
+        </Col>
+      </Row>
       <Row>
         <Col className="text-center mt-5 mb-2">
           <Button
