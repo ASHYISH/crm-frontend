@@ -1,5 +1,8 @@
 import React from "react";
 import { Table } from "react-bootstrap";
+
+import PropTypes from "prop-types";
+
 export const OrderTable = ({ Orders }) => {
   return (
     <Table striped bordered hover>
@@ -31,4 +34,8 @@ export const OrderTable = ({ Orders }) => {
       </tbody>
     </Table>
   );
+};
+
+OrderTable.propTypes = {
+  Orders: PropTypes.array.isRequired,
 };

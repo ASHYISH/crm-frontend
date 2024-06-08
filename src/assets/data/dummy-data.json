@@ -1,31 +1,37 @@
 [
   {
     "id": 1,
+    "subject": "Issue in SSl",
     "status": "Client response pending",
     "addedAt": "2024-06-07"
   },
   {
     "id": 2,
+    "subject": "Email in SsSl",
     "status": "Client response pending",
     "addedAt": "2024-06-07"
   },
   {
     "id": 3,
+    "subject": "No email included",
     "status": "Client response pending",
     "addedAt": "2024-06-07"
   },
   {
     "id": 4,
+    "subject": "dummy text takem",
     "status": "Client response pending",
     "addedAt": "2024-06-07"
   },
   {
     "id": 5,
+    "subject": "lorem ipsum",
     "status": "Client response pending",
     "addedAt": "2024-06-07"
   },
   {
     "id": 6,
+    "subject": "INdia is SSl",
     "status": "Client response pending",
     "addedAt": "2024-06-07"
   }
