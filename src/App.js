@@ -5,6 +5,7 @@ import { DafaultLayout } from "./layout/DafaultLayout";
 import { Dashboard } from "./pages/dashboard/Dashboard.page";
 import { AddOrder } from "./pages/new-order/AddOrder.page";
 import { OrderLists } from "./pages/order-list/OrderLists.page";
+import { Order } from "./pages/order/Order.page";
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
       <DafaultLayout>
         {/* <Dashboard /> */}
         {/* <AddOrder /> */}
-        <OrderLists />
+        {/* <OrderLists /> */}
+        <Order />
       </DafaultLayout>
     </div>
   );

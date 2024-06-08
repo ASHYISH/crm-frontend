@@ -3,7 +3,29 @@
     "id": 1,
     "subject": "Issue in SSl",
     "status": "Client response pending",
-    "addedAt": "2024-06-07"
+    "addedAt": "2024-06-07",
+    "history": [
+      {
+        "date": "20-10-10",
+        "message": "sdddsfdv",
+        "messageBy": "client"
+      },
+      {
+        "date": "20-10-10",
+        "message": "sdddsfdv",
+        "messageBy": "client"
+      },
+      {
+        "date": "20-10-10",
+        "message": "sdddsfdv",
+        "messageBy": "client"
+      },
+      {
+        "date": "20-10-10",
+        "message": "sdddsfdv",
+        "messageBy": "client"
+      }
+    ]
   },
   {
     "id": 2,
