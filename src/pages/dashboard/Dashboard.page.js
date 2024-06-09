@@ -3,6 +3,7 @@ import { Container, Row, Col, Button } from "react-bootstrap";
 import { OrderTable } from "../../components/order-table/OrderTable.comp";
 import Orders from "../../assets/data/dummy-data.json";
 import { PageBreadCrumb } from "../../components/breadcrumb/BreadCrumb.comp";
+import { useNavigate, Link } from "react-router-dom";
 
 export const Dashboard = () => {
   return (
@@ -14,12 +15,14 @@ export const Dashboard = () => {
       </Row>
       <Row>
         <Col className="text-center mt-5 mb-2">
-          <Button
-            variant="info"
-            style={{ fontSize: " 2rem", padding: "10px 30px" }}
-          >
-            Add New Order
-          </Button>
+          <Link to="/add-order">
+            <Button
+              variant="info"
+              style={{ fontSize: " 2rem", padding: "10px 30px" }}
+            >
+              Add New Order
+            </Button>
+          </Link>
         </Col>
       </Row>
       <Row>

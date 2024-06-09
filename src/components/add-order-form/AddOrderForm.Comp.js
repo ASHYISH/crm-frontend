@@ -5,8 +5,6 @@ import PropTypes from "prop-types";
 import "./add-order-form.style.css";
 
 export const AddOrderForm = ({ handleOnSubmit, handleOnChange, frmData }) => {
-  console.log(frmData);
-
   return (
     <Accordion className="mt-3 add-new-order bg-light">
       <h1 className="text-info text-center">Add New Order</h1>

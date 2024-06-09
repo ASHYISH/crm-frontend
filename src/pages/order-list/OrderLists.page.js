@@ -4,6 +4,7 @@ import { PageBreadCrumb } from "../../components/breadcrumb/BreadCrumb.comp";
 import { SearchForm } from "../../components/search-form/SearchForm.comp";
 import { OrderTable } from "../../components/order-table/OrderTable.comp";
 import Orders from "../../assets/data/dummy-data.json";
+import { useNavigate, Link } from "react-router-dom";
 
 export const OrderLists = () => {
   const [str, setStr] = useState("");
@@ -32,7 +33,9 @@ export const OrderLists = () => {
       </Row>
       <Row className="mt-4">
         <Col>
-          <Button variant="info">Add New Order</Button>
+          <Link to="/add-order">
+            <Button variant="info">Add New Order</Button>
+          </Link>
         </Col>
         <Col className="text-end">
           <SearchForm handleOnChange={handleOnChange} str={str} />
